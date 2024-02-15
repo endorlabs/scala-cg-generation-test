@@ -5,7 +5,8 @@ lazy val app = project
   .in(file("."))
   .settings(
     name := "the app",
-    libraryDependencies += "org.scala-lang" %% "toolkit" % "0.1.7"
+    libraryDependencies += "org.scala-lang" %% "toolkit" % "0.1.7",
+    libraryDependencies += "org.apache.commons" % "commons-text" % "1.9"
   )
   .aggregate(corelib)
   .aggregate(supplementlib)
