@@ -28,7 +28,7 @@ lazy val supplementlib = project
     libraryDependencies += "org.scala-lang" % "jline" % "2.10.7",
     libraryDependencies += "org.scala-lang" % "scala-parser-combinators" % "2.11.0-M4",
     libraryDependencies += "joda-time" % "joda-time" % "2.10.6",
-    //libraryDependencies += "org.webpieces.server.plugin" % "plugin-hibernate" % "2.1.109"
+    libraryDependencies += "org.webpieces.server.plugin" % "plugin-hibernate" % "2.1.109"
   )
 
 lazy val standalone = project
